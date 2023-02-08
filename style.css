@@ -17,11 +17,25 @@ a:hover {
     color: rgb(155, 155, 155);
 }
 
-#header,
-#menu {
-    background-color: #1F2937;
+button {
+    background-color: #3882f6;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top: 1rem;
     color: white;
+    border-radius: 0.5rem;
+    border-style: none;
+    font-weight: 800;
 }
+
+button:hover {
+    background-color: #2161c9;
+    color: rgb(0, 0, 0);
+    cursor: grab;
+}
+
 
 #header-logo {
     font-size: 24px;
@@ -36,16 +50,36 @@ a:hover {
     padding: 1rem;
 }
 
+#hero {
+    background-color: #1F2937;
+    color: white;
+}
+
 #header {
-    padding: 1rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding-bottom: 3rem;
     display: flex;
-    flex-direction: row;
-    flex-basis: 0 1 1;
+}
+
+.header-item {
+    padding: 1rem;
+    font-size: 1.125rem;
+    color: #e5e7eb;
+}
+
+.header-item h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #f9faf8;
 }
 
 .header-item img {
     width: 400px;
     height: 250px;
+    border-radius: 1rem;
 }
 
 #showcase {
@@ -77,10 +111,17 @@ a:hover {
 
 #quote {
     background-color: #E5E7EB;
-    padding-top: 3rem;
+    padding-top: 5rem;
     padding-left: 2rem;
     padding-right: 2rem;
-    padding-bottom: 3rem;
+    padding-bottom: 5rem;
+
+}
+
+#quote p {
+    max-width: 55%;
+    padding: 1rem;
+    margin: 0 auto;
 }
 
 #call-to-action {

@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(155, 155, 155);
+}
+
+#header,
+#menu {
+    background-color: #1F2937;
+    color: white;
+}
+
+#header-logo {
+    font-size: 24px;
+}
+
+#container {}
+
+#menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+#header {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 0 1 1;
+}
+
+.header-item img {
+    width: 400px;
+    height: 250px;
+}
+
+#showcase {
+    text-align: center;
+    padding-bottom: 1rem;
+    margin-bottom: 3rem;
+}
+
+#showcase-items-container {
+    display: flex;
+}
+
+.showcase-item {
+    font-size: 0.8rem;
+}
+
+.showcase-item img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-width: 4px;
+    border-radius: 15%;
+    border-style: solid;
+    border-color: rgb(5, 5, 133);
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+
+}
+
+#quote {
+    background-color: #E5E7EB;
+    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 3rem;
+}
+
+#call-to-action {
+    background-color: #1F2937;
+    color: white;
+}

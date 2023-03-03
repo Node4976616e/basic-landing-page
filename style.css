@@ -3,14 +3,22 @@
     padding: 0;
 }
 
-h3 {
+#showcase h3 {
     padding: 1rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: #1F2937;
+    color: white;
 }
 
 a {
     text-decoration: none;
     color: white;
+    margin-right: 0.5rem;
 }
 
 a:hover {
@@ -26,7 +34,8 @@ button {
     margin-top: 1rem;
     color: white;
     border-radius: 0.5rem;
-    border-style: none;
+    border-width: 0.1rem;
+    border-color: white;
     font-weight: 800;
 }
 
@@ -38,10 +47,10 @@ button:hover {
 
 
 #header-logo {
-    font-size: 24px;
+    font-size: 18px;
 }
 
-#container {}
+
 
 #menu {
     display: flex;
@@ -59,15 +68,17 @@ button:hover {
     margin-left: 4rem;
     margin-right: 4rem;
     margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     padding-bottom: 3rem;
     display: flex;
+    justify-content: space-evenly;
 }
 
 .header-item {
     padding: 1rem;
     font-size: 1.125rem;
     color: #e5e7eb;
+    width: 400px;
 }
 
 .header-item h1 {
@@ -88,8 +99,15 @@ button:hover {
     margin-bottom: 3rem;
 }
 
+#showcase h3 {
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: #1f2937;
+}
+
 #showcase-items-container {
     display: flex;
+    justify-content: center;
 }
 
 .showcase-item {
@@ -122,9 +140,26 @@ button:hover {
     max-width: 55%;
     padding: 1rem;
     margin: 0 auto;
+    font-size: 1.25rem;
+    font-style: italic;
+    font-weight: 100;
 }
 
 #call-to-action {
-    background-color: #1F2937;
+    background-color: #3882f6;
     color: white;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 75%;
+    margin: 0 auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border-radius: 8px;
+}
+
+figcaption {
+    text-align: right;
+    padding-right: 20%;
 }
